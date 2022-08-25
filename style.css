@@ -1,0 +1,112 @@
+body{
+        margin: 0;
+}
+h1{
+        font-size: 50px;
+}
+h2{
+        font-size: 40px;
+}
+p{
+        color: dimgray;
+}
+.orange-highlight{
+        color: orange;
+}
+.half-width{
+        margin-top: 5%;
+        width: 40%;
+        float: left;
+        margin-left: 6%;
+        padding: 2%;
+}
+.half-width img{
+        width: 80%;
+        border-radius: 50%;
+        margin-top: 9%;
+        margin-left: 15%;
+        border: 5px solid white;
+        box-shadow: 1px 1px 10px 2px gray;
+}
+
+.top-banner{
+        background-image: url(/image/firstbg.jpg) ;
+        background-size: cover;
+        
+}
+section{
+       height:500px;
+       padding-bottom: 100px;
+}
+.hire-me{
+        text-decoration: none;
+        background-image: linear-gradient(49deg, #F00044, #FF9F12);
+        padding: 7px 25px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 700;
+}
+/*-----------------section2-----*/
+.dream-area img{
+        width: 60%;
+}
+.dream-area{
+        background-image: url(/image/secondbackground.png);
+        background-size: cover;
+        width:100%;
+        height:400px;
+        
+}
+#dream-area-img{
+        border: none; 
+        box-shadow: none;
+        margin-left: -100px;
+        margin-top:-200px; 
+        width: 500px;
+}
+#dream-area-text{
+        margin-top: -45px;
+}
+/*-------------*/
+.experience{
+        background-image: url(/image/thirdbg.png);
+        background-repeat: no-repeat;
+        background-position: 0  300px;
+        width: 100%;
+        height: 600px;
+}
+
+.single-exparience{
+        padding: 20px;
+        box-shadow: 10px 10px 40px gray;
+        width: 38%;
+        height: 40%;
+        border-radius: 8px;
+        background-color: white;
+}
+
+#full-stack{
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg,#FFBD20, #E00000);
+        border-image-slice: 1;
+}
+#baby-web{
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg, #2075FF, #00E072);
+        border-image-slice: 1;
+}
+/*-------------*/
+footer{
+        background-color: #080E4D;
+        height: 63px;
+        padding: 14px 0 0 0;
+}
+footer p{
+        text-align: center;
+        font-size: 13px;
+        color: white;
+}
+footer p a{
+        text-decoration: none;
+        color: coral;
+}
